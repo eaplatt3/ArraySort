@@ -7,18 +7,32 @@
 # Output - Strings Sorted  
 ####################################
 
-#use strict;
+use strict;
 use warnings;
 
 #Variables
-my @words = qw(Bob, Timmy, aquaman, BIFF, bdsm, Rin, babe, TIN, xray, Amber);
+my @words = qw(Bob Timmy aquaman BIFF bdsm Rin babe TIN xray Amber);
 my @sortWords;
+my $sortedStrings;
+my $unsortedStrings; 
 
 
 #Array Sorting 
 @sortWords = sort @words;
 
-#Loop for Visuals
-for(int i = 0; i < 9; i++){
-print $sortWords[i] . "\n";
+print "\n";
+print "Unsorted Strings" . "\n";
+print "\n";
+
+#Loop for Output
+foreach $unsortedStrings (@words){
+	print $unsortedStrings . "\n";
+}
+
+print "\n"; 
+print "Sorted Strings" . "\n"; 
+print "\n"; 
+
+foreach $sortedStrings (@sortWords){
+	print $sortedStrings . "\n";
 }
