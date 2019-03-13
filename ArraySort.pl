@@ -1,11 +1,10 @@
 ####################################
 # Earl Platt III
-# 3/7/2019
+# 3/13/2019
 # BCS 316 - Perl Programming
-# Odd & Even Array
-# Input - 1 - 10 Static Numbers
-# Output - Two arrays one with odd 
-#          Numbers one with Even 
+# Array Sort
+# Input - Static Array of String 
+# Output - Strings Sorted  
 ####################################
 
 #use strict;
@@ -22,4 +21,4 @@ my @sortWords;
 #Loop for Visuals
 for(int i = 0; i < 9; i++){
 print "$sortWords[i]\n";
-
+}
