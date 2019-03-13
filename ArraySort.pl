@@ -12,10 +12,11 @@
 use warnings;
 
 #Variables
-my @words = (Bob, Timmy, aquaman, BIFF, bdsm, Rin, babe, TIN);
+my @words = (Bob, Timmy, aquaman, BIFF, bdsm, Rin, babe, TIN, xray, Amber);
+my @sortWords;
 
 
 #Array Sorting 
-@words = sort @words;
+@sortWords = sort @words;
 
-print @words;
+print @sortWords;
