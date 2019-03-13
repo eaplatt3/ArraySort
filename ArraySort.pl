@@ -12,11 +12,14 @@
 use warnings;
 
 #Variables
-my @words = (Bob, Timmy, aquaman, BIFF, bdsm, Rin, babe, TIN, xray, Amber);
+my @words = qw(Bob, Timmy, aquaman, BIFF, bdsm, Rin, babe, TIN, xray, Amber);
 my @sortWords;
 
 
 #Array Sorting 
 @sortWords = sort @words;
 
-print @sortWords;
+#Loop for Visuals
+for(int i = 0; i < 9; i++){
+print "$sortWords[i]\n";
+
