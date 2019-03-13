@@ -20,5 +20,5 @@ my @sortWords;
 
 #Loop for Visuals
 for(int i = 0; i < 9; i++){
-print "$sortWords[i]\n";
+print $sortWords[i] . "\n";
 }
